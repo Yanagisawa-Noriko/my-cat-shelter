@@ -1,0 +1,569 @@
+/* すべてのページに適応される設定 */
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+body {
+  margin: 0 0 0 0;
+}
+img {
+  max-width: 100%;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+/* すべてのページに適応 - ヘッダー - */
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  width: 45%;
+  right: 55%;
+  bottom: -20px;
+}
+nav.hmenu{
+  width:100%;
+}
+nav.hmenu ul{
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav.hmenu ul li a{
+  color: #494743;
+  display: block;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+nav.hmenu ul li a:hover {
+  color: #F07034;
+  text-decoration: none;
+}
+nav.hmenu ul li a:active {
+  color: #c0c0c0;
+  text-decoration: none;
+}
+.message {
+  color: #494743;
+  background: #dcdcdc;
+  text-align: center;
+}
+.submessage {
+  font-size: 1.3rem;
+  color: #494743;
+  text-align: center;
+}
+/* すべてのページに適応 - ヘッダー -ここまで */
+
+
+/* すべてのページに適応 - メイン -  */
+main {
+  max-width: 1000px;
+  margin: 20px auto 30px auto;
+}
+main h2 {
+  color: #494743;
+  font-size: 1.3rem;
+}
+main h3 {
+  color: #2d6089;
+  text-decoration: underline;
+}
+/* すべてのページに適応 - メイン - ここまで */
+
+/* すべてのページに適応 - フッター -  */
+footer {
+  text-align: center;
+}
+.footer a {
+  background: #dcdcdc;
+  color: #2c312c;
+  text-decoration: none;
+  text-align: center;
+}
+.footer a:link {
+  color: #2c312c;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .menu {
+  background: #dcdcdc;
+  list-style: none;
+  display: flex;
+}
+.footer .menu li {
+  padding: 0 30px 0 0;
+}
+footer .copyright {
+  color:  #494743;
+  margin: 10px 0 0 0;
+  padding: 40px 0 40px 0;
+  background-color: #dcdcdc;
+}
+.gotop{
+  text-align: center;    
+}
+/* すべてのページに適応 - フッター -ここまで  */
+
+/* 個別のスタイル */
+
+/* htmlメイン */
+.ramipanmoko {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ramipanmoko-text {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.2rem;
+  color: #494743;
+}
+.ramipanmoko-img {
+  width: 300px;
+  height: auto;
+}
+/* html ニュース */
+.newsbox {
+  border: 2px solid #e2debe;
+  padding: 2em;
+  border-radius: 10px;
+  background-color: #f6f7f1;
+}
+.newsbox a {
+  color: #F07034;
+}
+.newsbox a:hover {
+  text-decoration: underline;
+}
+/* htmlメインここまで */
+
+/* 店舗情報 */
+.shop-info {
+  border-top: 1px solid #999;
+}
+.shop-info tr {
+  border-bottom: 1px solid #999;
+}
+.shop-info th,
+.shop-info td {
+  padding: 24px 0;
+  border-bottom: 1px solid #999;
+}
+.shop-info th {
+  width: 30%;
+}
+.shop-info a {
+  color: #F07034;
+}
+.shop-info a:hover {
+  text-decoration: underline;
+}
+/* 店舗情報ここまで */
+
+/* 猫の紹介 */
+.member {
+  padding: 20px 0 50px 0;
+}
+.member-5 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.member-txt {
+  width: 300px;
+  height: 300px;
+  background-color: #eae9e0;
+  border-radius: 50%;
+}
+.name {
+  padding: 50px 0;
+}
+.member-img {
+  transition: 1s all ease 0s;
+}
+.member-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.catill {
+  text-align: right;
+  color: #94918b;
+}
+.member-img:hover {
+  transform: rotateY(180deg);
+}
+/* 猫の紹介ここまで */
+
+/* お問い合わせ */
+.contact {
+  border-collapse: collapse;
+  max-width: 1000px;
+  border-top: 1px solid #999;
+  margin: 10px auto 90px auto;
+}
+.contact tr {
+  border-bottom: 1px solid #999;
+}
+.contact th,
+.contact td {
+  padding: 24px 0;
+  border-bottom: 1px solid #999;
+}
+.contact th {
+  width: 30%;
+}
+.contact img {
+  width: 100px;
+}
+.contact a {
+  color: #F07034;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
+.renraku1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.renraku-txt {
+  text-align: center;
+  vertical-align: auto;
+  font-size: 1.2rem;
+  color: #494743;
+}
+.renraku-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+/* お問い合わせここまで */
+
+/* お店の様子 */
+.cathouse {
+  overflow: hidden;
+  text-align: center;
+}
+.house1 {
+  float: left;
+  width: 490px;
+  text-align: center;
+}
+.house2 {
+  float: right;
+  width: 500px;
+}
+.neko {
+  width: 1000px;
+  padding: 30px;
+}
+.nekoroom-img {
+  padding: 0 5px 0 0;
+}
+.nekoroom-img img {
+  width: 100%;
+  height: auto;
+}
+/* お店の様子ここまで */
+
+/* 子猫たち */
+.kitten {
+  text-align: center;
+}
+.kitty2-img img {
+  width: 330px;
+  height: 330px;
+}
+.satooya {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #dcdcdc;
+}
+.satooya-txt {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #494743;
+}
+.satooya-img img {
+  vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+/* 子猫たちここまで */
+
+/* アクセス */
+.access1 {
+  text-align: left;
+  border-bottom: 1px solid #999;
+}
+/* アクセスここまで */
+
+/* artistページ・着物ページ共通 */
+.header_artist {
+  padding: 10px;
+}
+.buttun {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background: #FFFFFF;
+  border: 1px solid #c6c6c6;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 0;
+}
+.buttun-artist {
+  float: right;
+}
+table.buttun-artist tr td a {
+  color: #ababab;
+}
+table.buttun-artist tr td a:hover {
+  color: #FFFFFF;
+  background-color: #ababab;
+}
+table.buttun-artist tr td a:active {
+  color: #FFFFFF;
+  background-color: #94918b;
+  border: 1px solid #94918b;
+}
+.artist-h2 {
+  text-align: center;
+  padding: 0 0 0 200px;
+  font-size: 1.4rem;
+  color: #a9a9a9;
+  letter-spacing: 1rem;
+}
+/* artistページ・着物ページ共通ここまで */
+
+/* artistページ */
+.artists {
+  border-collapse: separate;
+  text-align: center;
+  padding: 30px;
+}
+.artist {
+  margin: 0 auto;
+}
+.artist-_img,
+.artist_txt {
+  text-align: center;
+  vertical-align: middle;
+  width: auto;
+  padding: 40px;
+}
+.artist_txt a {
+  color: #e89bc2;
+} 
+.artist_txt {
+  font-size: 1.2rem;
+  color: #977d48;
+}
+.artistname-rami {
+  color: #e89bc2;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.artistname-k {
+  color: #2d6089;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.artist_img img{
+  width: 400px;
+  height: auto;
+}
+/* artistページここまで */
+
+/* 着物教室 */
+.kimono-renraku {
+  margin: 0 auto;
+  padding: 40px 40px 0 40px;
+}
+.kimono-img,
+.kimono-txt {
+  text-align: center;
+  width: auto;
+}
+.kimono-txt {
+  font-size: 1.3rem;
+  color: #977d48;
+  display: inline-block;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #977d48;
+  border-radius: 20px;
+}
+.kimono-txt::before {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  right: 40px;
+  width: 0;
+  height: 0;
+  border-top: 30px solid #977d48;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  transform-origin: left top;
+  transform: skewX(40deg);
+}
+.kimono-txt::after {
+  content: "";
+  position: absolute;
+  bottom: -26px;
+  right: 43px;
+  width: 0;
+  height: 0;
+  border-top: 30px solid #fff;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  transform-origin: left top;
+  transform: skewX(40deg);
+}
+.kimono-img {
+  width: 300px;
+}
+/* 着物教室ここまで */
+
+@media screen and (max-width: 860px){
+  nav.hmenu ul {
+    flex-wrap: wrap;
+  }
+  nav.hmenu ul li a{
+    padding: 10px 10px 0 10px;
+  }
+  .text {
+    font-size: 2vw;
+  }
+  span {
+    display: inline-block;
+  }
+  main {
+    padding: 0 4%;
+  }
+  .member5 {
+    width: 100%;
+  }
+  .member th,
+  .member td {
+    width: auto;
+    display: block;
+    text-align: center;
+  }
+  .renraku1 {
+    width: 100%;
+  }
+  .renraku1 td {
+    width: auto;
+    display: block;
+    text-align: center;
+  }
+  .contact {
+    width: 100%;
+  }
+  .contact th,
+  .contact td {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .kimonos {
+    width: 100%;
+  }
+  .kimono-renraku td {
+    margin: 0 40px 0 -10px;
+    padding: 15px 10px 15px 10px;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .kimono-txt::before {
+    left: 40px;
+  }
+  .kimono-txt::after {
+    left: 37px;
+  }
+  .ramipanmoko td {
+    width: auto;
+    display: block;
+    text-align: center;
+  }
+  .kitteys {
+    width: auto;
+  }
+  .kitty td {
+    width: auto;
+    display: flex;
+  }
+  .kitty2-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .satooya {
+    width: 100%;
+  }
+  .satooya td {
+    width: 100%;
+    display: block;
+  }
+  .satooya-txt {
+    padding: 30px 0 10px 0;
+  }
+  .satooya-img {
+    text-align: center;
+  }
+  .neko {
+    width: 100%;
+    padding: 0.4%;
+  }
+  .nekoroom td {
+    width: 100%;
+    display: block;
+  }
+  .nekoroom-img img {
+    width: 100vw;
+    height: 100%;
+  }
+  .artist {
+    width: 100%;
+  }
+  .artist-h2 {
+    padding: 0 0 0 30px;
+    display: inline-flex;
+    text-align: center;
+  }
+  .artist td {
+    width: auto;
+    display: block;
+  }
+  .map {
+    width: 100%;
+    position: relative;
+    padding-top: 56.25%;
+  }
+  .map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
